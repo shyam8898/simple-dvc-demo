@@ -18,3 +18,6 @@ https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5
 git init
 dvc init
 dvc add -R data_given
+git add .
+git commit -m "first Commit" 
+git add . && git commit -m "update Readme.md"
