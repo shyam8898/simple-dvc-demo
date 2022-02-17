@@ -79,3 +79,12 @@ Open jupyter lab
 ```bash
 jupyter-lab notebooks/
 ```
+Create new branch
+```bash
+git checkout -b main-mlflow
+```
+
+All in one command 
+```bash
+git add . && git commit -m "latest version" && git push -u origin main
+```
