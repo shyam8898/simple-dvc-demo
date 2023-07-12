@@ -89,6 +89,13 @@ tox command -
 ```bash
 tox
 ```
+
+tox command for creating/initialization
+
+```bash
+touch tox.ini
+```
+
 for rebuilding -
 
 ```bash
