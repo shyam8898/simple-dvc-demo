@@ -73,6 +73,16 @@ DVC Reproduce
 ```bash
 dvc repro
 ```
+To show metrics using DVC command
+
+```bash
+dvc metrics show
+```
+To show metrics differences between old and new using DVC command
+
+```bash
+dvc metrics diff
+```
 
 tox command -
 
