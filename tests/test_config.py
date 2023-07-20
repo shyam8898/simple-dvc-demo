@@ -5,9 +5,16 @@ class NotInRange(Exception):
         self.message = message
         super().__init__(self.message)
 
+#Note: We need to add test_ before function name as it is following this naming convention
+
 def test_generic():
     a=5
     # can pass ValeError to test it is not in range
     with pytest.raises(NotInRange):
         if a not in range(10,20):
             raise NotInRange
+        
+def test_something():
+    a=2
+    b=2
+    assert True
