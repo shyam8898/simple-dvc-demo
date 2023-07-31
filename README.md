@@ -69,6 +69,10 @@ git push origin main
 ```
 
 DVC Reproduce
+```bash
+dvc init
+```
+
 
 ```bash
 dvc repro
